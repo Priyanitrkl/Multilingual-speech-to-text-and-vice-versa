@@ -80,7 +80,7 @@ var messages = {
             recognition.onstart = function(){
                 recognizing = true;
                 showInfo("speak_now");
-                start_img.src = 'images/mic-animation.gif'
+                start_img.src = 'mic-animation.gif'
             }
  
             recognition.onerror = function(event){
